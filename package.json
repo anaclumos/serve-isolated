@@ -9,9 +9,9 @@
     "serve.cjs"
   ],
   "dependencies": {
+    "@fastify/static": "^6.4.1",
     "devcert": "^1.2.0",
-    "fastify": "^3.21.6",
-    "fastify-static": "^4.2.3",
+    "fastify": "^4.3.0",
     "mri": "^1.2.0"
   }
 }

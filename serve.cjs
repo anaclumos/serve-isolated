@@ -42,7 +42,7 @@ async function main() {
     reply.code(204).send();
   });
 
-  fastify.register(require('fastify-static'), {
+  fastify.register(require('@fastify/static'), {
     root: path.join(process.cwd(), dir),
     setHeaders(res) {
       res.setHeader(
